@@ -13,14 +13,16 @@ import java.util.Scanner;
  */
 public class Idade {
 
-    /**
+    private static Scanner input;
+
+	/**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+  
      
               int idade = 0;
-              Scanner input = new Scanner (System.in);
+              input = new Scanner (System.in);
               System.out.println("Digite sua data de nascimento");
               int dtnasc = input.nextInt();
               System.out.println("Digite seu ano atual");

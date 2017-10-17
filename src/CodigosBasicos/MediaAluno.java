@@ -3,10 +3,12 @@ package CodigosBasicos;
 import java.util.Scanner;
 
 public class MediaAluno {
-     public static void main(String[] args) {
+     private static Scanner input;
+
+	public static void main(String[] args) {
          
          float media = 0;
-         Scanner input = new Scanner (System.in);
+         input = new Scanner (System.in);
          System.out.println("Digite a primeira nota");
          float nota1 = input.nextFloat();
          System.out.println("Digite a segunda nota");

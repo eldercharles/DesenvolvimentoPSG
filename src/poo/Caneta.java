@@ -1,28 +1,25 @@
+
 package poo;
 
-public class Caneta {     // Classe Caneta criada
-    String modelo;        // Atributos
-    String cor;            // Atributos
-    float ponta;          // Atributos
-    int carga;             // Atributos
-    boolean tampada;        // Atributos
+public class Caneta {
+
+    public static void main(String[] args) {
+        
+      ClassCaneta c1 = new ClassCaneta();          // Instanciar      //---- Criando um objeto apartir da classe caneta----
+      c1.cor = "Azul";
+      c1.ponta = 0.5f;
+      c1.tampar();
+      
+      c1.status();                 // Status
+      c1.rabiscar();
+      
+      
+      ClassCaneta c2 = new ClassCaneta();
+      c2.modelo = "BIC";
+      c2.cor = "Preta";
+      c2.destampar();
+      c2.status();
+      c2.rabiscar();
+    }
     
-    void status() {       // Mostrar estado atual
-        
-        System.out.println("Modelo: " + this.modelo);
-        System.out.println("Uma caneta: " + this.cor);
-        System.out.println("Ponta: " + this.ponta);
-        System.out.println("Carga: " + this.carga);
-        System.out.println("Esta tampada? " + this.tampada);
-        
-    }
-    void rabiscar() {                     // Métodos            // Void Significa  "Sem retorno".
-        
-    }
-    void tampar()  {                        // Métodos            // Void Significa  "Sem retorno".
-        this.tampada = true;
-    }    
-    void destampar() {                    // Métodos            // Void Significa  "Sem retorno".
-        this.tampada = false;
-    }
-} 
+}

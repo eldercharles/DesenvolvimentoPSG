@@ -1,10 +1,8 @@
 
-package ordenacao;
-
-import java.util.Scanner;
+package buscaordenacaoanalise;
 
 
-public class OrdenacaoRepeticao {
+public class OrdenacaoRepeticao {                                   // Pag. 01 á 28
     
     public static void main(String[] args) {
         

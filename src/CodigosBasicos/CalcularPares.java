@@ -5,12 +5,14 @@ import java.util.Scanner;
 
 
 public class CalcularPares {
-    public static void main(String[] args) {
+    private static Scanner ent;
+
+	public static void main(String[] args) {
         
     
    
  
-        Scanner ent = new Scanner(System.in);
+        ent = new Scanner(System.in);
         int num, contPar = 0, contImpar = 0;
         
         for(int i = 1; i <= 5; i++)

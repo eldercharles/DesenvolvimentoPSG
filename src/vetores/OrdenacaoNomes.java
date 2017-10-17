@@ -1,7 +1,7 @@
 
 // Organizar Nomes em ordem alfabética....
 
-package ordenacao;
+package vetores;
 
 import java.util.Arrays;                //Importar os Arrays
 
@@ -14,7 +14,7 @@ public class OrdenacaoNomes {
     for (String pessoa: nome)    // Para cada 
         System.out.println(pessoa);
         System.out.println("----------");
-        System.out.println("Contém " +nome.length + " Nomes");
+        System.out.println("Contém " +nome.length  + " Nomes");
     }
     }
     

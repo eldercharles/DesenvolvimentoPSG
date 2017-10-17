@@ -1,5 +1,5 @@
 
-package CodigosBasicos;
+package vetores;
 
 
 public class InserirValores {
