@@ -2,13 +2,13 @@ package poo;
 
 public class ClassCarro {
 
-	String Modelo;
-	String Cor;
-	int Ano;
-	int Portas;
-	boolean Ligado;
+	public String Modelo;
+	public String Cor;
+	public int Ano;
+	public int Portas;
+	public boolean Ligado;
 	
-	void status() {
+	public void status() {
 		System.out.println("Modelo " + this.Modelo);
 		System.out.println("Cor " + this.Cor);
 		System.out.println("Ano " + this.Ano);
@@ -16,15 +16,15 @@ public class ClassCarro {
 		
 	}
 	
-	void Ligar() {
+	protected void Ligar() {
 	  this.Ligado = true;
 	}
 	
-	void Desligar() {
+	protected void Desligar() {
 	  this.Ligado = false;
 	}
 	
-	void Acelerar() {
+	protected void Acelerar() {
 	if	(this.Ligado == true) {
 		System.out.println("----------------------------------");
 		System.out.println("Estou acelerando!");
@@ -35,7 +35,5 @@ public class ClassCarro {
 		}
 		
 	}
-	
-	
 	
 }
