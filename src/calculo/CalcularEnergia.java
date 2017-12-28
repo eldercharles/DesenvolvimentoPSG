@@ -2,9 +2,12 @@ package calculo;
 
 import java.util.Scanner;
 
-      public class CalcularEnergia {
-    	  
-     private static Scanner teclado;
+      public class CalcularEnergia {                    //   ICMS: IMPOSTO SOBRE CIRCULAÇÃO DE MERCADORIAS e SERVIÇOS.
+    	                   
+     private static Scanner teclado;                    //   É um imposto que incide sobre a circulação de produtos como 
+                                                        //   eletrodomésticos, alimentos, serviços de comunicação e transporte 
+                                                        //   intermunicipal e interestadual, entre outros.
+                                                        //   A arrecadação advinda desse tributo é encaminhada para os estados
 
 	public static void main(String[] args) {
 		
