@@ -4,9 +4,11 @@ import java.util.Scanner;
 import java.util.Random;              //  -C---------- Criar numero inteiro aleatório
 
 public class AcerteNumero {   
+	
+	private static Scanner teclado;
 
 	public static void main(String[] args) {
-		Scanner teclado = new Scanner(System.in);
+		teclado = new Scanner(System.in);
 		Random random = new Random();
 		
 		boolean acertou = false;
@@ -33,12 +35,10 @@ public class AcerteNumero {
 				--tentativas;
 				System.out.println("Numero muito grande!" + tentativas + " tentativas restante.");
 			}
-	
-		
-		
-	
-		
+		}
 	}
+}
+		
+		
 	
-}
-}
+		
